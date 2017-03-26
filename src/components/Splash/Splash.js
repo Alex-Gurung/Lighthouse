@@ -88,7 +88,7 @@ class Splash extends Component {
     }
     someFunction () {
         console.log('something')
-        fetch('https://lighthouse.naitian.org/hosts')
+        fetch('https://lighthouse-backend.herokuapp.com/hosts')
             .then(function (response) {
                 console.log(response)
                 console.log("fjdsk;lfjdskl;fjdskthis"+this)
@@ -166,7 +166,8 @@ const styles = StyleSheet.create({
         borderWidth: 0,
         width: 300,
         paddingLeft: 150,
-        paddingRight: 15
+        paddingRight: 15,
+        margin: 0,
     },
     logo: {
         top: 20,

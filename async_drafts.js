@@ -1,4 +1,4 @@
-fetch('https://naitianswebsite.com/register/', {
+fetch('https://lighthouse.naitian.org/register/', {
   method: 'POST',
   headers: {
     'Accept': 'application/json',
@@ -14,7 +14,7 @@ fetch('https://naitianswebsite.com/register/', {
   })
 })
 
-fetch('https://naitianswebsite.com/hosts/', {
+fetch('https://lighthouse.naitian.org/hosts/', {
   method: 'POST',
   headers: {
     'Accept': 'application/json',
@@ -30,7 +30,7 @@ fetch('https://naitianswebsite.com/hosts/', {
   })
 })
 
-fetch('https://naitianswebsite.com/incidents/', {
+fetch('https://lighthouse.naitian.org/incidents/', {
   method: 'POST',
   headers: {
     'Accept': 'application/json',

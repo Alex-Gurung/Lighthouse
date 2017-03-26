@@ -17,7 +17,10 @@ class Victim extends Component {
         this.state = {
             latitude: null,
             longitude: null,
-            error: null
+            name: null,
+            phone: null,
+            groupsize: null,
+            duration: null,
         };
     }
     validation = function () {
@@ -44,23 +47,27 @@ class Victim extends Component {
                     <FormLabel>
                         <Text style={styles.formness}>Name</Text>
                     </FormLabel>
-                    <FormInput/>
+                    <FormInput onChangeText={(name) => this.setState({name})}
+    value={this.state.name}
+    />
 
                     <FormLabel>
                         <Text style={styles.formness}>Group Size</Text>
                     </FormLabel>
-                    <FormInput keyboardType='numeric'/>
+                    <FormInput onChangeText={(groupsize) => this.setState({groupsize})}
+    value={this.state.groupsize} keyboardType='numeric'/>
 
                     <FormLabel>
                         <Text style={styles.formness}>Duration(in hours)</Text>
                     </FormLabel>
-                    <FormInput keyboardType='numeric'/>
+                    <FormInput onChangeText={(duration) => this.setState({duration})}
+    value={this.state.duration} keyboardType='numeric'/>
 
                     <Button
                         backgroundColor='#2ecc71'
                         raised
                         title='Find Home'
-                        onPress={someddFunction}/>
+                        onPress={someVictimFunction}/>
                 </View>
             </ScrollView>
         );
@@ -74,19 +81,25 @@ class Victim extends Component {
                     enableHighAccuracy: true,
                     timeout: 20000,
                     maximumAge: 1000
-                },);
+                });
     }
+    someVictimFunction () {
+        console.log('begin victim method')
+        fetch('https://lighthouse-backend.herokuapp.com/register/', {
+  method: 'POST',
+  body: JSON.stringify({
+    'name': this.state.name,
+    'phone': '7038351897',				//ALL OF THIS SHOULD BE
+    'group-size': this.state.groupsize,			//THIS.STATE OR WHATEVER
+    'duration': this.state.duration,
+    'location': this.state.latitude+","+this.state.longitude,		//lat,long	// <-- here, location is the current latitiude and longitude
+  }.bind(this))
+}.bind(this))
 }
-someddFunction = function () {
-    fetch('https://lighthouse.naitian.org/hosts')  
-    .then(function(response) {
-        var y =  response.json().then(function(jsonObj) {
-            console.log(jsonObj)
-        })
-    }
-)
 }
-
+idkkkk = function () {
+    var z = 0
+}
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10
