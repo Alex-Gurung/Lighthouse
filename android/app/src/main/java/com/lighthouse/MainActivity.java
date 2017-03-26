@@ -1,6 +1,7 @@
 package com.lighthouse;
 
 import com.facebook.react.ReactActivity;
+import com.tkporter.sendsms.SendSMSPackage;
 
 public class MainActivity extends ReactActivity {
 
