@@ -127,10 +127,6 @@ class Victim extends Component {
             })
     }
 }
-
-idkkkk = function () {
-    var z = 0
-}
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10
