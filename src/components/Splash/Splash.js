@@ -13,16 +13,19 @@ class Splash extends Component {
     };
   }
     render() {
-        // const { navigate } = this.props.navigation;
+        const { navigate } = this.props.navigation;
         return (
+            <ScrollView>
             <View style={styles.container}>
                 <Text style={styles.header}>
                     Lighthouse
                 </Text>
-                <Card style={styles.header}/>
-                <Card style={styles.header}/>
-                {/*<Button onPress={validation} title="Get Help"/>*/}
+                <Card style={styles.header} navigation={navigate}/>
+                <Button style={styles.buttons} onPress={() => navigate('Tabs')} title="Get/Give Help"/>
+                <Card style={styles.header} navigation={navigate}/>
+
             </View>
+            </ScrollView>
         );
     }
     componentDidMount() {
@@ -63,7 +66,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#2980b9',
         padding: 0,
-        margin: 0
+        margin: 0,
+        height: 800,
     },
     card: {
         flex: 3,
@@ -79,6 +83,9 @@ const styles = StyleSheet.create({
         fontFamily: 'monospace',
         color: '#FFF',
         paddingBottom: 20
+    },
+    buttons: {
+        backgroundColor: 'white'
     }
 });
 export default Splash;

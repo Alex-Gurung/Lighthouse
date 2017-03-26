@@ -1,7 +1,7 @@
 [
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\redbox_item_title.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\layout\\redbox_item_title.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\layout\\redbox_item_title.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -21,7 +21,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\redbox_item_frame.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\layout\\redbox_item_frame.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\layout\\redbox_item_frame.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -29,7 +29,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\redbox_view.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\layout\\redbox_view.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\layout\\redbox_view.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -133,7 +133,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fps_view.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\layout\\fps_view.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\layout\\fps_view.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

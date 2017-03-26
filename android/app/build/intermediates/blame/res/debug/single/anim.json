@@ -5,11 +5,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\anim\\slide_up.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\anim\\slide_up.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_in.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\anim\\catalyst_push_up_in.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -17,7 +17,7 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_out.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\anim\\catalyst_push_up_out.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\anim\\catalyst_push_up_out.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
@@ -41,11 +41,11 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\anim\\fade_in.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\anim\\fade_in.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\anim\\fade_out.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\anim\\fade_out.xml"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
@@ -61,6 +61,6 @@
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\\output\\res\\anim\\slide_down.xml"
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\\output\\res\\anim\\slide_down.xml"
     }
 ]

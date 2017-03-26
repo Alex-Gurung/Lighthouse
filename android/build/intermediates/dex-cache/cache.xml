@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\output\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_fa5ae6da363a10ae4ea72cad9f9450bd045d8dfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -21,147 +30,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_d7d6f9cb5860cad30fad4e488bc1d796d3b41cad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_f4719c4b4bd9590f586084fba928540637780fd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\427055353fbef6f4984e4df5f463548cfb5b505e\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_9e587606290cf93c0c80a4d2bc78c037a76ae90f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\c1b975cb3572e23b80a289cb4746f846d0865111\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_151d8b999413b750070e35630889dd427588eace.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\9fb451171fb14a58c3001aef761c07e16c3817f8\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_dd33f333eb504f0fe70b9063cb145c2ce0a88015.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\6586b9c0494c5fe5772798c61aa502cb2f07b2cb\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_408f3f86af479e70163424e7b8adf35464e96c53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_f4719c4b4bd9590f586084fba928540637780fd1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="962b06c207e808c0557ffd6163ac584025a96021">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_be52a3c70a2cf1c2692bd0f4f2a2548587440670.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_75a6acacffacecbb33af12354658eda0e1e6a969.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_ad278401d4ae18151d0e34fd4a1b37917846fae9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_0be9e42bcff4d3e35886076a73514f9c47092e05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\020d3c43bb0784eac9d3a7d586f45daa296e82c1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_e04cdbfe59ec4af48df4b0395770377d32b41b55.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\bfee7cbd9715a03c572fd1d945427ce284ab587a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_d40a1b5916aa0f5635bf6341ce64535b1cfcafd2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_19523b72667b50c3dbce6a33d5eeb718f7b4642d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_d7d6f9cb5860cad30fad4e488bc1d796d3b41cad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\b482f311929c02144bffab60c595848762387abe\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_0106bcd3bf9a3e200ce0ecfc3d09f88995a6eb5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_d7d6f9cb5860cad30fad4e488bc1d796d3b41cad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_f4719c4b4bd9590f586084fba928540637780fd1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -180,6 +72,24 @@
         revision="25.0.0"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
         <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_b1503033dc18c64aeb69e58f86d3db67b52c0cac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\c1b975cb3572e23b80a289cb4746f846d0865111\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_151d8b999413b750070e35630889dd427588eace.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\9fb451171fb14a58c3001aef761c07e16c3817f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_dd33f333eb504f0fe70b9063cb145c2ce0a88015.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,6 +120,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Alex\Documents\GitHub\Lighthouse\node_modules\react-native-vector-icons\android\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b319ff9834bbeb9be394687614eb86892699ea14">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_efc506cbccf685aed9f9f5784bdc2b4a24055753.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -237,12 +156,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\d14cf3ca6b925c518ae7a0a5cbd445ac8c23db9b\output\jars\libs\infer-annotations-1.5.jar"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\6586b9c0494c5fe5772798c61aa502cb2f07b2cb\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_5ebe140a10bec96dc5cf2665efe9c6daf65282e2.jar" />
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_408f3f86af479e70163424e7b8adf35464e96c53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_f4719c4b4bd9590f586084fba928540637780fd1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -273,6 +201,42 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_75a6acacffacecbb33af12354658eda0e1e6a969.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_ad278401d4ae18151d0e34fd4a1b37917846fae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\48a0bf7f8655ee770aa305256b69c60a77ec0aa3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_dc044b222e4b00e49b7c48f318d29d4bc0d128f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_0be9e42bcff4d3e35886076a73514f9c47092e05.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -291,6 +255,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\020d3c43bb0784eac9d3a7d586f45daa296e82c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_e04cdbfe59ec4af48df4b0395770377d32b41b55.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
@@ -300,12 +273,48 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\bfee7cbd9715a03c572fd1d945427ce284ab587a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_d40a1b5916aa0f5635bf6341ce64535b1cfcafd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_9968763fe1adc392ba928cb254fa0ae491ab62b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_19523b72667b50c3dbce6a33d5eeb718f7b4642d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_d7d6f9cb5860cad30fad4e488bc1d796d3b41cad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alex\AppData\Local\Android\sdk\.android\build-cache\b482f311929c02144bffab60c595848762387abe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="C:\Users\Alex\Documents\GitHub\Lighthouse\android\app\build\intermediates\pre-dexed\debug\classes_0106bcd3bf9a3e200ce0ecfc3d09f88995a6eb5f.jar" />
     </item>
 
 </items>

@@ -9,11 +9,7 @@ export default class CardExample extends Component {
                     <Text style={styles.cardhead}>
                         City Name
                     </Text>
-                    <Button
-                        text=""
-                        style={styles.buttonGet}
-                        onPress={onPressGetHelp}
-                        value="Need a host or can host?"></Button>
+                    <Text style={styles.info}>General information about incident/problem</Text>
                     <Button
                         text=""
                         style={styles.buttonGive}
@@ -43,16 +39,21 @@ onPressDonate = function () {
 }
 const styles = StyleSheet.create({
     container: {
-        width: 100,
+        width: 1000,
         height: 100,
-        padding: 0,
-        margin: 0,
     },
     cardhead: {
-        textAlign: 'center'
+        textAlign: 'center',
+        fontSize: 30
     },
     button: {
         backgroundColor: '#841584',
         width: 100
+    },
+    info: {
+        textAlign: 'center'
+    },
+    overall: {
+        width: 800
     }
 });

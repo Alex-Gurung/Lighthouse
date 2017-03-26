@@ -8,14 +8,6 @@ class Victim extends Component {
     someFunction = function () {
         var x = 0;
     }
-    validation = function (condition, content) {
-        Alert.alert('Request Sent', 'Your host request has been sent', [
-            {
-                text: 'OK',
-                onPress: () => console.log('Great!')
-            }
-        ], {cancelable: false})
-    }
     // onChangeText={someFunction} <FormValidationMessage>Error
     // message</FormValidationMessage>
     render() {
