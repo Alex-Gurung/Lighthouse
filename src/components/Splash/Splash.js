@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import {ScrollView, View, Alert, Text, StyleSheet, Button} from 'react-native'
+import {ScrollView, View, Alert, Text, StyleSheet, Image} from 'react-native'
 import { StackNavigator } from 'react-navigation';
-import Card from '../Card/Card'
+import {Button} from 'react-native-elements';
+// import Card from '../Card/Card'
+import {Card} from 'react-native-material-design';
 class Splash extends Component {
     constructor(props) {
     super(props);
@@ -17,12 +19,37 @@ class Splash extends Component {
         return (
             <ScrollView>
             <View style={styles.container}>
+                <Image style={styles.logo} source={require('./logo.png')} />
                 <Text style={styles.header}>
                     Lighthouse
                 </Text>
-                <Card style={styles.header} navigation={navigate}/>
-                <Button style={styles.buttons} onPress={() => navigate('Tabs')} title="Get/Give Help"/>
-                <Card style={styles.header} navigation={navigate}/>
+            <Card style={ styles.overall }>
+                <Card.Body style={ styles.container }>
+                    <Text style={styles.cardhead}>
+                        City Name
+                    </Text>
+                    <Text style={styles.info}>General information about incident/problem</Text>
+                    <Button large buttonStyle={styles.buttons} color='white' title="Want to donate?"></Button>
+                    
+                    <Button large buttonStyle={styles.buttons} color='white' onPress={() => navigate('Tabs')} title="Get/Give Help"/>
+                </Card.Body>
+            </Card>
+                
+                <Card style={ styles.overall }>
+                <Card.Body style={ styles.container }>
+                    <Text style={styles.cardhead}>
+                        City Name
+                    </Text>
+                    <Text style={styles.info}>General information about incident/problem</Text>
+                    <Button
+                        text=""
+                        style={styles.buttonGive}
+                        onPress={validation}
+                        value="Want to donate?"></Button>
+                        <Button large buttonStyle={styles.buttons} onPress={() => navigate('Tabs')} title="Get/Give Help"/>
+                </Card.Body>
+            </Card>
+                
 
             </View>
             </ScrollView>
@@ -69,12 +96,13 @@ const styles = StyleSheet.create({
         margin: 0,
         height: 800,
     },
-    card: {
+    overall: {
         flex: 3,
-        padding: 0,
+        paddingTop: 50,
         margin: 0,
-        width: 100,
-        borderWidth: 1
+        width: 800,
+        height: 20,
+        borderWidth: 0
     },
     header: {
         fontSize: 50,
@@ -82,10 +110,27 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         fontFamily: 'monospace',
         color: '#FFF',
-        paddingBottom: 20
+        paddingTop: 20
+    },
+    info: {
+        textAlign: 'center',
     },
     buttons: {
-        backgroundColor: 'white'
-    }
+        backgroundColor: '#f1c40f',
+        bottom: 0,
+    }, 
+    logo: {
+        width: 100,
+        height: 100,
+
+    },
+    // button: {
+    //     backgroundColor: '#841584',
+    //     width: 100
+    // },
+    cardhead: {
+        textAlign: 'center',
+        fontSize: 30
+    },
 });
 export default Splash;

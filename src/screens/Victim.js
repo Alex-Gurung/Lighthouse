@@ -39,8 +39,8 @@ class Victim extends Component {
         );
     }
 }
-validation = function (condition, content) {
-        Alert.alert('Request Sent', 'Your host request has been sent', [
+validation = function () {
+        Alert.alert('Requestfdsaf', 'fdsfYour host request has been sent', [
             {
                 text: 'OK',
                 onPress: () => console.log('Great!')

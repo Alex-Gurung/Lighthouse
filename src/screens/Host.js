@@ -41,14 +41,14 @@ class Host extends Component {
     );
   }
 }
-validation = function (condition, content) {
-        Alert.alert('Request Sent', 'Your host request has been sent', [
-            {
-                text: 'OK',
-                onPress: () => console.log('Great!')
-            }
-        ], {cancelable: false})
-    }
+// validation = function (condition, content) {
+//         Alert.alert('Request Sent', 'Your host request has been sent', [
+//             {
+//                 text: 'OK',
+//                 onPress: () => console.log('Great!')
+//             }
+//         ], {cancelable: false})
+//     }
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10
