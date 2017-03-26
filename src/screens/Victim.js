@@ -97,9 +97,6 @@ class Victim extends Component {
 }.bind(this))
 }
 }
-idkkkk = function () {
-    var z = 0
-}
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10

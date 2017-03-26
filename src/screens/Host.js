@@ -7,55 +7,95 @@ class Host extends Component {
 //   handleSettingsPress = () => {
 //     this.props.navigation.navigate('Settings');
 //   };
-  constructor(props) {
+    constructor(props) {
         super(props);
 
         this.state = {
             name: null,
-            phone: null,
+            phone: '8323983229',
             location: null,
             capacity: null,
             duartion: null,
             event: null,
         };
     }
-  someFunction = function () {
+    validation () {
+        Alert.alert('Alert Title', 'My Alert Msg', [
+            {
+                text: 'Ask me later',
+                onPress: () => console.log('Ask me later pressed')
+            }, {
+                text: 'Cancel',
+                onPress: () => console.log('Cancel Pressed'),
+                style: 'cancel'
+            }, {
+                text: 'OK',
+                onPress: () => console.log('OK Pressed')
+            }
+        ], {cancelable: false})
+    }
+    // onChangeText={someFunction} <FormValidationMessage>Error
+  someFunction () {
       var x = 0;
   }
-  render() {
+  componentDidMount() {
+            navigator
+                .geolocation
+                .getCurrentPosition((position) => {
+                    this.setState({latitude: position.coords.latitude, longitude: position.coords.longitude, error: null});
+                }, (error) => this.setState({error: error.message}), {
+                    enableHighAccuracy: true,
+                    timeout: 20000,
+                    maximumAge: 1000
+                });
+    }
+render() {
     return (
       <ScrollView>
-                <View style={styles.viewness}>
-                <KeyboardAvoidingView behavior="padding">
-                <FormLabel><Text style={styles.formness}>Name</Text></FormLabel>
-                <FormInput />
+        <View style={styles.viewness}>
+          <KeyboardAvoidingView behavior="padding">
+            <FormLabel><Text style={styles.formness}>Name</Text></FormLabel>
+            <FormInput  onChangeText={(name) => this.setState({name})}
+                value={this.state.name}/>
 
-                <FormLabel><Text style={styles.formness}>Group Size</Text></FormLabel>
-                <FormInput keyboardType='numeric' />
-            
-                
-                <FormLabel><Text style={styles.formness}>Duration(in hours)</Text></FormLabel>
-                <FormInput 
-                    keyboardType='numeric' 
-                />
+            <FormLabel><Text style={styles.formness}>Capacity</Text></FormLabel>
+            <FormInput keyboardType='numeric' onChangeText={(capacity) => this.setState({capacity})}
+                value={this.state.capacity}/>
 
-                                <FormLabel><Text style={styles.formness}>Address</Text></FormLabel>
-                <FormInput />    
+            <FormLabel><Text style={styles.formness}>Duration(in hours)</Text></FormLabel>
+            <FormInput 
+              keyboardType='numeric' 
+              onChangeText={(duration) => this.setState({duration})}
+                              value={this.state.duration}
+            />
 
-                <Button backgroundColor='#2ecc71'
-                    raised
-                    title='Offer Home'
-                    onPress={hostFunction}
-                    />
-                    </KeyboardAvoidingView>
-                    </View>
-            </ScrollView>
+          <FormLabel><Text style={styles.formness}>Address</Text></FormLabel>
+          <FormInput onChangeText={(address) => this.setState({address})}
+                                        value={this.state.address}
+                                      />    
+
+          <Button backgroundColor='#2ecc71'
+            raised
+            title='Offer Home'
+            onPress={hostFunction}
+          />
+        </KeyboardAvoidingView>
+      </View>
+    </ScrollView>
     );
   }
 
   hostToServerFunction () {
     console.log('begin host method')
-    fetch('https://lighthouse-backend.herokuapp.com/register/', {
+    let data = new FormData()
+    data.append('name', this.state.name)
+    data.append('phone', this.state.phone)
+    data.append('duration', this.state.duration)
+    data.append('capacity', this.state.capacity)
+    data.append('location', this.state.name)
+    data.append('event', '58d7ccc94740cc0004c6898f')
+
+    fetch('https://lighthouse-backend.herokuapp.com/host', {
       method: 'POST',
       body: JSON.stringify({
         'name': this.state.name,
@@ -70,7 +110,7 @@ class Host extends Component {
 }
 
 hostFunction = function (condition, content) {
-        Alert.alert('Requestjjjj Sent', 'Your host request has been sent', [
+        Alert.alert('Request Sent', 'Your host request has been sent', [
             {
                 text: 'OK',
                 onPress: () => console.log('Great!')
