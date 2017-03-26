@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, View, Text, StyleSheet, KeyboardAvoidingView } from 'react-native';
+import { ScrollView, Alert, View, Text, StyleSheet, KeyboardAvoidingView } from 'react-native';
 import { Tile, List, ListItem, Button } from 'react-native-elements';
 // import { me } from '../config/data';
 import { FormLabel, FormInput, FormValidationMessage } from 'react-native-elements'
@@ -32,13 +32,23 @@ class Host extends Component {
 
                 <Button backgroundColor='#2ecc71'
                     raised
-                    title='Offer Home'/>
+                    title='Offer Home'
+                    onPress={validation}
+                    />
                     </KeyboardAvoidingView>
                     </View>
             </ScrollView>
     );
   }
 }
+validation = function (condition, content) {
+        Alert.alert('Request Sent', 'Your host request has been sent', [
+            {
+                text: 'OK',
+                onPress: () => console.log('Great!')
+            }
+        ], {cancelable: false})
+    }
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10

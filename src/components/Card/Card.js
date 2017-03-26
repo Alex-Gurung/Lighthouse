@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import {Text, StyleSheet} from 'react-native'
+import {Text, StyleSheet, Alert} from 'react-native'
 import {Card, Button} from 'react-native-material-design';
 export default class CardExample extends Component {
     render() {
         return (
-            <Card style={styles.overall}>
-                <Card.Body style={styles.container}>
+            <Card style={ styles.overall }>
+                <Card.Body style={ styles.container }>
                     <Text style={styles.cardhead}>
                         City Name
                     </Text>
@@ -17,13 +17,21 @@ export default class CardExample extends Component {
                     <Button
                         text=""
                         style={styles.buttonGive}
-                        onPress={onPressDonate}
+                        onPress={validation}
                         value="Want to donate?"></Button>
                 </Card.Body>
             </Card>
         );
     }
 }
+validation = function (condition, content) {
+        Alert.alert('Request Sent', 'Your host request has been sent', [
+            {
+                text: 'OK',
+                onPress: () => console.log('Great!')
+            }
+        ], {cancelable: false})
+    }
 onPressGetHelp = function () {
     var x = 0
 }
@@ -35,7 +43,10 @@ onPressDonate = function () {
 }
 const styles = StyleSheet.create({
     container: {
-        width: 100
+        width: 100,
+        height: 100,
+        padding: 0,
+        margin: 0,
     },
     cardhead: {
         textAlign: 'center'
