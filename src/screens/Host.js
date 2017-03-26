@@ -7,6 +7,18 @@ class Host extends Component {
 //   handleSettingsPress = () => {
 //     this.props.navigation.navigate('Settings');
 //   };
+  constructor(props) {
+        super(props);
+
+        this.state = {
+            name: null,
+            phone: null,
+            location: null,
+            capacity: null,
+            duartion: null,
+            event: null,
+        };
+    }
   someFunction = function () {
       var x = 0;
   }
@@ -40,7 +52,23 @@ class Host extends Component {
             </ScrollView>
     );
   }
+
+  hostToServerFunction () {
+    console.log('begin host method')
+    fetch('https://lighthouse-backend.herokuapp.com/register/', {
+      method: 'POST',
+      body: JSON.stringify({
+        'name': this.state.name,
+        'phone': this.state.phone,              //ALL OF THIS SHOULD BE
+        'duration': this.state.duration,         //THIS.STATE OR WHATEVER
+        'capacity': this.state.capacity,
+        'location': this.state.latitude+","+this.state.longitude,       //lat,long  // <-- here, location is the current latitiude and longitude
+        'event': this.state.event,
+      }.bind(this))
+    }.bind(this))
+  }
 }
+
 hostFunction = function (condition, content) {
         Alert.alert('Requestjjjj Sent', 'Your host request has been sent', [
             {
@@ -49,6 +77,7 @@ hostFunction = function (condition, content) {
             }
         ], {cancelable: false})
     }
+
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10
