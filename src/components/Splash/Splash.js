@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native'
+import {ScrollView, View, Text, StyleSheet, Button} from 'react-native'
 import { StackNavigator } from 'react-navigation';
 import Card from '../Card/Card'
 class Splash extends Component {
@@ -10,6 +10,7 @@ class Splash extends Component {
                 <Text style={styles.header}>
                     Lighthouse
                 </Text>
+                <Card style={styles.header}/>
                 <Card style={styles.header}/>
                 {/*<Button onPress={() => navigate('GetHelp')} title="Get Help"/>*/}
             </View>
@@ -46,7 +47,8 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         justifyContent: 'center',
         fontFamily: 'monospace',
-        color: '#FFF'
+        color: '#FFF',
+        paddingBottom: 20
     }
 });
 export default Splash;

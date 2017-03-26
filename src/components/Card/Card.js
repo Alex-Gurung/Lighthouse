@@ -4,7 +4,7 @@ import {Card, Button} from 'react-native-material-design';
 export default class CardExample extends Component {
     render() {
         return (
-            <Card>
+            <Card style={styles.overall}>
                 <Card.Body style={styles.container}>
                     <Text style={styles.cardhead}>
                         City Name
@@ -13,17 +13,12 @@ export default class CardExample extends Component {
                         text=""
                         style={styles.buttonGet}
                         onPress={onPressGetHelp}
-                        value="You gonna die?"></Button>
-                    <Button
-                        text=""
-                        style={styles.buttonGive}
-                        onPress={onPressGiveHelp}
-                        value="You wanna help?"></Button>
+                        value="Need a host or can host?"></Button>
                     <Button
                         text=""
                         style={styles.buttonGive}
                         onPress={onPressDonate}
-                        value="You wanna donate?"></Button>
+                        value="Want to donate?"></Button>
                 </Card.Body>
             </Card>
         );

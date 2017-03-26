@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { ScrollView, KeyboardAvoidingView } from 'react-native';
+import { View, ScrollView, Text, KeyboardAvoidingView, StyleSheet } from 'react-native';
 import {Tile, List, Icon, ListItem, Button} from 'react-native-elements';
 // import {me} from '../config/data';
 import {FormLabel, FormInput} from 'react-native-elements'
@@ -12,33 +12,41 @@ class Victim extends Component {
     render() {
         return (
             <ScrollView>
-                <FormLabel>Name</FormLabel>
+                <View style={styles.viewness}>
+                <KeyboardAvoidingView behavior="padding">
+                <FormLabel><Text style={styles.formness}>Name</Text></FormLabel>
                 <FormInput />
+
+                <FormLabel><Text style={styles.formness}>Group Size</Text></FormLabel>
+                <FormInput keyboardType='numeric' />
                 
 
-                <FormLabel>Phone Number</FormLabel>
-                <FormInput />
+                <FormLabel><Text style={styles.formness}>Duration(in hours)</Text></FormLabel>
+                <FormInput keyboardType='numeric' />
                 
 
-                <FormLabel>Group size</FormLabel>
-                <FormInput />
-                
-
-                <FormLabel>Duration</FormLabel>
-                <FormInput />
-                
-
-                <Button
+                <Button backgroundColor='#2ecc71'
                     raised
-                    icon={{ name: 'home' }}
                     title='Find Home'/>
+                    </KeyboardAvoidingView>
+                    </View>
             </ScrollView>
         );
     }
 }
-
+const styles = StyleSheet.create({
+    viewness: {
+        // fontSize: 10
+    },
+    formness: {
+        // backgroundColor: 'red'
+        color: 'black',
+        fontSize: 20
+    }
+});
 // UserDetail.defaultProps = {
 //     ...me
 // };
+
 
 export default Victim;
