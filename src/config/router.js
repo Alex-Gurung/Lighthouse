@@ -62,9 +62,9 @@ export const Tabs = TabNavigator({
   </ScrollView>
 );*/
 export const Root = StackNavigator({
-    // Splash: {
-    //     screen: Splash
-    // },
+    Splash: {
+        screen: Splash
+    },
     Tabs: {
         screen: Tabs
     }
