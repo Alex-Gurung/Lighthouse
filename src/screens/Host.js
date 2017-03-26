@@ -33,7 +33,7 @@ class Host extends Component {
                 <Button backgroundColor='#2ecc71'
                     raised
                     title='Offer Home'
-                    onPress={validation}
+                    onPress={hostFunction}
                     />
                     </KeyboardAvoidingView>
                     </View>
@@ -41,14 +41,14 @@ class Host extends Component {
     );
   }
 }
-// validation = function (condition, content) {
-//         Alert.alert('Request Sent', 'Your host request has been sent', [
-//             {
-//                 text: 'OK',
-//                 onPress: () => console.log('Great!')
-//             }
-//         ], {cancelable: false})
-//     }
+hostFunction = function (condition, content) {
+        Alert.alert('Requestjjjj Sent', 'Your host request has been sent', [
+            {
+                text: 'OK',
+                onPress: () => console.log('Great!')
+            }
+        ], {cancelable: false})
+    }
 const styles = StyleSheet.create({
     viewness: {
         // fontSize: 10
