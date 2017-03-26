@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, {Component} from 'react';
+/*import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, View} from 'react-native';
 //import Card from './src/components/Card/Card'
 import { StackNavigator } from 'react-navigation';
@@ -30,13 +30,16 @@ class gethelpscreen extends Component {
       </View>
     );
   }
-}
+}*/
+import { AppRegistry } from 'react-native';
+import App from './src/app/index';
 
+AppRegistry.registerComponent('lighthouse', () => App);
 // const LighthouseApp = StackNavigator({
 //   Home: { screen: lighthouse },
 //   GetHelp: { screen: gethelpscreen },
 // });
-AppRegistry.registerComponent('lighthouse', () => lighthouse);
+// AppRegistry.registerComponent('lighthouse', () => lighthouse);
 // AppRegistry.registerComponent('gethelpscreen', () => gethelpscreen);
 // AppRegistry.registerComponent('LighthouseApp', () => LighthouseApp);
 /*const styles = StyleSheet.create({
