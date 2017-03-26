@@ -34,7 +34,7 @@ class Splash extends Component {
                     <Grid style={styles.overall}>
                         <Row style={styles.row}>
                             <Text style={styles.cardhead}>
-                                {this.state.locationOfEvent}
+                                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{this.state.locationOfEvent}
                             </Text>
                             <Text style={styles.info}>General information about incident/problem</Text>
                             <SocialIcon
@@ -59,7 +59,7 @@ class Splash extends Component {
 
                         <Row style={styles.row}>
                             <Text style={styles.cardhead}>
-                                {this.state.location2}
+                                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{this.state.location2}
                             </Text>
                             <Text style={styles.info}>General information about incident/problem</Text>
                             <SocialIcon
@@ -142,8 +142,7 @@ const styles = StyleSheet.create({
         height: 800
     },
     cardhead: {
-        textAlign: 'center',
-        marginLeft: 100,
+        textAlign: 'right',
     },
     overall: {
         flex: 4,
@@ -163,7 +162,8 @@ const styles = StyleSheet.create({
         // paddingTop: 20,
     },
     info: {
-        textAlign: 'center'
+        textAlign: 'right',
+        marginRight: 10
     },
     buttons: {
         backgroundColor: '#66CD00',
