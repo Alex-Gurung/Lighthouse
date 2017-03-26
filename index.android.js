@@ -4,37 +4,42 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-
+import React, {Component} from 'react';
+import {AppRegistry, StyleSheet, Text, View} from 'react-native';
+//import Card from './src/components/Card/Card'
+import { StackNavigator } from 'react-navigation';
+import Splash from './src/components/Splash/Splash'
 export default class lighthouse extends Component {
+  static navigationOptions = {
+    title: 'Welcome',
+  };
+  render() {
+
+    return (<Splash/>);
+  }
+}
+
+class gethelpscreen extends Component {
+  static navigationOptions = {
+    title: 'Get Help',
+  };
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Naitian is racist
-          </Text>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+      <View>
+        <Text>Get some Help</Text>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
+// const LighthouseApp = StackNavigator({
+//   Home: { screen: lighthouse },
+//   GetHelp: { screen: gethelpscreen },
+// });
+AppRegistry.registerComponent('lighthouse', () => lighthouse);
+// AppRegistry.registerComponent('gethelpscreen', () => gethelpscreen);
+// AppRegistry.registerComponent('LighthouseApp', () => LighthouseApp);
+/*const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -51,6 +56,6 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
-});
+});*/
 
-AppRegistry.registerComponent('lighthouse', () => lighthouse);
+
