@@ -11,6 +11,7 @@
     "react-native": "0.42.3",
     "react-native-elements": "^0.10.2",
     "react-native-material-design": "^0.3.7",
+    "react-native-push-notification": "^2.2.1",
     "react-native-sms": "^1.4.1"
   },
   "devDependencies": {

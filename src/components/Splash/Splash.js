@@ -18,7 +18,8 @@ class Splash extends Component {
 
         this.state = {
             locationOfEvent: null,
-            location2: null
+            location2: null,
+            eventID: null,
         };
     }
     render() {
@@ -88,7 +89,7 @@ class Splash extends Component {
     }
     someFunction () {
         console.log('something')
-        fetch('https://lighthouse-backend.herokuapp.com/hosts')
+        fetch('https://lighthouse-backend.herokuapp.com/incidents')
             .then(function (response) {
                 console.log(response)
                 console.log("fjdsk;lfjdskl;fjdskthis"+this)
@@ -98,10 +99,11 @@ class Splash extends Component {
                     .then(function (jsonObj) {
                         console.log("first" + jsonObj)
                         console.log("second" + jsonObj[0])
-                        this.setState({locationOfEvent: jsonObj[0].location})
+                        this.setState({locationOfEvent: jsonObj[0].hashtag})
                         console.log('jklfjdskal;fjkdsl;j')
-                        this.setState({location2: jsonObj[1].location})
+                        this.setState({location2: jsonObj[1].hashtag})
                         console.log('end of some function')
+                        this.setState({eventID: jsonObj[0]['_id']['$oid']})
                 }.bind(this))
             }.bind(this)
 )    }
@@ -164,10 +166,11 @@ const styles = StyleSheet.create({
         bottom: 0,
         top: 10,
         borderWidth: 0,
-        width: 300,
-        paddingLeft: 150,
-        paddingRight: 15,
+        width: 600,
+        marginLeft: 200,
+        // paddingRight: 15,
         margin: 0,
+        padding: 0,
     },
     logo: {
         top: 20,
