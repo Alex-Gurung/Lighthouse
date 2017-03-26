@@ -13,4 +13,11 @@ public class MainActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "lighthouse";
     }
+
+    @Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+	    //probably some other stuff here
+	    SendSMSPackage.getInstance().onActivityResult(requestCode, resultCode, data);
+	}
+    
 }
