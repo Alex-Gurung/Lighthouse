@@ -132,12 +132,12 @@
         "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\45b2496c85c5793b85cbb12723a5255595944f0a\\output\\res\\drawable-mdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\45b2496c85c5793b85cbb12723a5255595944f0a\\output\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png",
         "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\45b2496c85c5793b85cbb12723a5255595944f0a\\output\\res\\drawable-mdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Alex\\AppData\\Local\\Android\\sdk\\.android\\build-cache\\45b2496c85c5793b85cbb12723a5255595944f0a\\output\\res\\drawable-mdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Alex\\Documents\\GitHub\\Lighthouse\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abc_ic_go_search_api_mtrl_alpha.png",

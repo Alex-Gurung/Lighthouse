@@ -17,6 +17,9 @@ export default class lighthouse extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
+          Naitian is racist
+          </Text>
+        <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
