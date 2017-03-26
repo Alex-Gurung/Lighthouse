@@ -9,7 +9,7 @@ class Host extends Component {
 //   };
     constructor(props) {
         super(props);
-
+        this.hostToServerFunction = this.hostToServerFunction.bind(this)
         this.state = {
             name: null,
             phone: '8323983229',
@@ -39,15 +39,15 @@ class Host extends Component {
       var x = 0;
   }
   componentDidMount() {
-            navigator
-                .geolocation
-                .getCurrentPosition((position) => {
-                    this.setState({latitude: position.coords.latitude, longitude: position.coords.longitude, error: null});
-                }, (error) => this.setState({error: error.message}), {
-                    enableHighAccuracy: true,
-                    timeout: 20000,
-                    maximumAge: 1000
-                });
+            // navigator
+            //     .geolocation
+            //     .getCurrentPosition((position) => {
+            //         this.setState({latitude: position.coords.latitude, longitude: position.coords.longitude, error: null});
+            //     }, (error) => this.setState({error: error.message}), {
+            //         enableHighAccuracy: true,
+            //         timeout: 20000,
+            //         maximumAge: 1000
+            //     });
     }
 render() {
     return (
@@ -77,7 +77,7 @@ render() {
           <Button backgroundColor='#2ecc71'
             raised
             title='Offer Home'
-            onPress={hostFunction}
+            onPress={this.hostToServerFunction}
           />
         </KeyboardAvoidingView>
       </View>
@@ -95,22 +95,21 @@ render() {
     data.append('location', this.state.name)
     data.append('event', '58d7ccc94740cc0004c6898f')
 
-    fetch('https://lighthouse-backend.herokuapp.com/host', {
+    fetch('https://lighthouse-backend.herokuapp.com/hosts', {
       method: 'POST',
-      body: JSON.stringify({
-        'name': this.state.name,
-        'phone': this.state.phone,              //ALL OF THIS SHOULD BE
-        'duration': this.state.duration,         //THIS.STATE OR WHATEVER
-        'capacity': this.state.capacity,
-        'location': this.state.latitude+","+this.state.longitude,       //lat,long  // <-- here, location is the current latitiude and longitude
-        'event': this.state.event,
-      }.bind(this))
-    }.bind(this))
+      body: data,
+    }).then(function (response) {
+            return response.json();
+    }).then(function(data) {
+        console.log(data)
+        this.hostFunction()
+        return data;
+    })
   }
 }
 
 hostFunction = function (condition, content) {
-        Alert.alert('Request Sent', 'Your host request has been sent', [
+        Alert.alert('Request Sent', 'Your offer has been received', [
             {
                 text: 'OK',
                 onPress: () => console.log('Great!')

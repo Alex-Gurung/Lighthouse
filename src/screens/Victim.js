@@ -84,21 +84,21 @@ class Victim extends Component {
         );
     }
     componentDidMount() {
-        console.log('mounted')
-        navigator
-            .geolocation
-            .getCurrentPosition((position) => {
-                var initialPosition = JSON.stringify(position);
-                this.setState({longitude: initialPosition.longitude, latitude: initialPosition.latitude});
-        console.log('da real finish')
-        console.log(this.state.longitude)    
-        }, (error) => alert(JSON.stringify(error)), {
-                enableHighAccuracy: true,
-                timeout: 20000,
-                maximumAge: 1000
-            });
+        // console.log('mounted')
+        // navigator
+        //     .geolocation
+        //     .getCurrentPosition((position) => {
+        //         var initialPosition = JSON.stringify(position);
+        //         this.setState({longitude: initialPosition.longitude, latitude: initialPosition.latitude});
+        // console.log('da real finish')
+        // console.log(this.state.longitude)    
+        // }, (error) => alert(JSON.stringify(error)), {
+        //         enableHighAccuracy: true,
+        //         timeout: 20000,
+        //         maximumAge: 1000
+        //     });
 
-        console.log('finished mounting')
+        // console.log('finished mounting')
     }
     someVictimFunction() {
         console.log(this.state)
@@ -119,10 +119,24 @@ class Victim extends Component {
             return response.json();
         })
             .then(function (data) {
+                console.log(data);
                 if (data["status"] === '200'){
-                 console.log('success')   
+                 Alert.alert('Request Success!', 'Your host\'s phone number: ' + data['phone'], [
+            {
+                text: 'OK',
+                message: data['phone'],
+                onPress: () => console.log('Great!')
+            }
+        ], {cancelable: false})  
                 }
-                else{console.log('failure')}
+                else{
+                    Alert.alert('Request Failure', 'Your host request has been sent', [
+            {
+                text: 'OK',
+                onPress: () => console.log('Great!')
+            }
+        ], {cancelable: false})
+                    console.log('failure')}
                 return data;
             })
     }

@@ -141,6 +141,10 @@ const styles = StyleSheet.create({
         margin: 0,
         height: 800
     },
+    cardhead: {
+        textAlign: 'center',
+        marginLeft: 100,
+    },
     overall: {
         flex: 4,
         margin: 0,
@@ -164,10 +168,11 @@ const styles = StyleSheet.create({
     buttons: {
         backgroundColor: '#66CD00',
         bottom: 0,
-        top: 10,
+        marginTop: 5,
         borderWidth: 0,
-        width: 600,
-        marginLeft: 200,
+        width: 375,
+        marginLeft: 208,
+        marginRight: 100,
         // paddingRight: 15,
         margin: 0,
         padding: 0,
@@ -190,7 +195,7 @@ const styles = StyleSheet.create({
         paddingBottom: 30,
         marginBottom: 30,
         backgroundColor: '#F6FEDB',
-        width: 700
+        width: 600,
     }
 });
 export default Splash;
