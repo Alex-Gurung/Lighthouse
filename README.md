@@ -2,7 +2,7 @@
 
 ![Lighthouse logo](logo.png)
 
-**Lighthouse** is an react-native (currently android online) app to allow people in crises like those of terrorist attacks and natural disasters find a place to stay quickly by connecting them with people who would like to host.
+**Lighthouse** is an react-native (currently android only) app to allow people in crises like those of terrorist attacks and natural disasters find a place to stay quickly by connecting them with people who would like to host.
 
 ## Status
 After HackTJ-2017, **Lighthouse** has a useable interface, that has working guest and host forms, as well as an automated alert to the guest if there is an available host.
