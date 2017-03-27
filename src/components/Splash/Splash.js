@@ -178,9 +178,10 @@ const styles = StyleSheet.create({
         padding: 0,
     },
     logo: {
-        top: 20,
-        width: 100,
-        height: 100
+        width: 120,
+        height: 120,
+        marginTop: 20,
+        marginBottom: 20,
     },
     // button: {     backgroundColor: '#841584',     width: 100 },
     cardhead: {
