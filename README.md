@@ -1,4 +1,4 @@
-# Lighthouse
+# Lighthouse (Hackathon Project)
 
 ![Lighthouse logo](logo.png)
 
@@ -8,7 +8,7 @@
 After HackTJ-2017, **Lighthouse** has a useable interface, that has working guest and host forms, as well as an automated alert to the guest if there is an available host.
 
 ## Future
-Please contribute! Places we think need improvement are: 
+Places we think need improvement are: 
 * Improve the UI for quicker and smoother interaction
     * The splash screen in particular
 * SMS automation so that guests can send off an automated message to the host
